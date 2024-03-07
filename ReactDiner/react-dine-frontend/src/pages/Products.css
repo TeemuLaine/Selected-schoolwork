@@ -1,0 +1,36 @@
+.productContainer {
+  border: rgba(255, 255, 255, 0.8) solid;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius:5%;
+  width: 250px;
+  height: 280px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.productContainer a {
+  color: white;
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: contain;
+  object-position: center;
+}

@@ -1,0 +1,52 @@
+.popup-add {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 20px;
+}
+
+.popup-remove {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #b85c5c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 20px;
+}
+
+.popup-add button,
+.popup-remove button {
+  background: none;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  padding: 0;
+  outline: none;
+  justify-self: center;
+  text-align: center;
+  border: none;
+  height: 50px;
+}
+.popup-add button:focus,
+.popup-remove button:focus {
+  outline: none;
+}

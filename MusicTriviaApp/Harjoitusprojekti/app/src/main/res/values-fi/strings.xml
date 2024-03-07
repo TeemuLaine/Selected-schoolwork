@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projekti</string>
+    <string name="ready_to_start_music_trivia">Valmiina aloittamaan?</string>
+    <string name="next_question">Seuraava kysymys</string>
+    <string name="show_answer">Näytä vastaus</string>
+    <string name="something_went_wrong">Jokin meni pieleen</string>
+    <string name="plus">Oikein</string>
+    <string name="minus">Miinus</string>
+    <string name="start_trivia">Aloita visa</string>
+    <string name="add_player">Lisää pelaaja</string>
+    <string name="name">Nimi</string>
+    <string name="add">Lisää</string>
+    <string name="player_count_maxed_out">Ei voi lisätä enempää</string>
+    <string name="players">Pelaajat:</string>
+    <string name="player_name_can_t_be_empty">Nimi ei voi olla tyhjä</string>
+    <string name="player_1">Pelaaja 1</string>
+    <string name="player_2">Pelaaja 2</string>
+    <string name="please_click_the_next_question_button">Paina \"Seuraava kysymys\" näppäintä</string>
+    <string name="save_scores">Tallenna tulokset</string>
+    <string name="remove_latest">Poista viimeisin</string>
+    <string name="no_players_to_remove">Ei poistettavia pelaajia</string>
+</resources>

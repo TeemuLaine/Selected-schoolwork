@@ -1,0 +1,91 @@
+.cartContainer {
+  width: 45%;
+  margin: auto;
+  padding-top: 2%;
+}
+.cartContainer h2 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cartTitles h3 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cartListItem,
+.cartTitles {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+
+.cartSummary {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.clearButton {
+  font-weight: 400;
+  border: rgba(255, 255, 255, 0.8) solid;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-image: linear-gradient(rgb(202, 0, 0), rgb(196, 92, 92));
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.checkoutButton {
+  font-weight: 400;
+  border: rgba(255, 255, 255, 0.8) solid;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-image: linear-gradient(rgb(0, 221, 37), rgb(0, 161, 67));
+  cursor: pointer;
+}
+
+.checkoutButton-inactive {
+  font-weight: 400;
+  border: rgba(255, 255, 255, 0.8) solid;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-image: linear-gradient(rgb(91, 110, 94), rgb(124, 155, 137));
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  border: rgb(255, 255, 255) solid;
+  background-image: linear-gradient(rgb(207, 36, 36), rgb(212, 139, 139));
+}
+
+.productName {
+  width: 0;
+  margin-left: 7%;
+}
+
+.price {
+  padding-right: 8%;
+}
+
+.quantity {
+  padding-right: 22%;
+}
+
+.total {
+  padding-right: 20%;
+}
+
+.cartTotal {
+  margin: auto;
+  margin-right: 0px;
+  margin-bottom: 10px;;
+  border: rgba(255, 255, 255, 0.8) solid;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}

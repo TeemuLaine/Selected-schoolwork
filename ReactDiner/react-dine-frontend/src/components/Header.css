@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(rgb(202, 0, 0), rgb(196, 92, 92));
+  margin-top: 0px;
+  left:0;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  float:left;
+  padding:0;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+
+.list li {
+  width: 100px;
+}
+
+.list a:hover,
+.list a.active {
+  text-decoration: none;
+  color: rgb(246, 150, 255);
+}
+
+ul {
+  list-style-type: none;
+}

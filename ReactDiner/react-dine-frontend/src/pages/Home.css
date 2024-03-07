@@ -1,0 +1,51 @@
+.homeScreen {
+  height: 100%;
+}
+
+.homeScreen hr {
+  border: none;
+  margin: 10px auto 0px auto;
+  height: 2px;
+  width: 40%;
+  background-color: rgb(139, 0, 0);
+}
+
+.homeScreen h1 {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.homeScreen h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgb(139, 0, 0);
+}
+
+.homeScreen p {
+  font-size: 20px;
+}
+
+.homeScreen p a {
+  color: rgb(139, 0, 0);
+}
+
+.homeScreen p a:hover {
+  color: rgb(173, 39, 39);
+}
+
+.images {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.homeScreen .images img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
